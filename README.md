@@ -1,9 +1,4 @@
 # modular-rice
-<img width="1919" height="1077" alt="image" src="https://github.com/user-attachments/assets/ad720b15-5c9e-4bff-b3e4-becd2160086a" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/a97754f0-bcc0-4d12-b0f6-33ffa038bad1" />
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/06363c93-6219-44aa-a9bd-f15704e24a1d" />
-<img width="507" height="1078" alt="image" src="https://github.com/user-attachments/assets/4568948b-e5a0-4db6-ae73-c172538e080d" />
-<img width="1906" height="1080" alt="image" src="https://github.com/user-attachments/assets/4ac88ef8-ba93-4170-b759-d4b33a59d2dc" />
 
 
 
