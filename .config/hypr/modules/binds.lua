@@ -10,7 +10,7 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Format: hl.bind("keys/switch", dispatcher_or_function, { flags })
 hl.bind("switch:on:Lid Switch", hl.dsp.exec_cmd("hyprlock & systemctl suspend"), { locked = true })
-hl.bind(mainMod .. "+ I", hl.dsp.exec_cmd("/home/seesank/rofi-wifi-menu/rofi-wifi-menu.sh"))
+hl.bind(mainMod .. "+ I", hl.dsp.exec_cmd("~/rofi-wifi-menu/rofi-wifi-menu.sh"))
 hl.bind(mainMod .. " + W", hl.dsp.exec_cmd("~/.config/rofi/rofi-wallpaper.sh"))
 
 
