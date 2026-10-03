@@ -1,0 +1,9 @@
+:root {
+  --primary: {{colors.primary.default.hex}};
+  --error: {{colors.error.default.hex}};
+  --warning: {{colors.tertiary.default.hex}};
+  --success: {{colors.secondary.default.hex}};
+  --neutral: {{colors.surface_variant.default.hex}};
+  --surface: {{colors.surface.default.hex}};
+  --on_surface: {{colors.on_surface.default.hex}};
+}

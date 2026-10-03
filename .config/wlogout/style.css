@@ -1,0 +1,61 @@
+@import '/home/seesank/.config/wlogout/colors.css';
+
+* {
+    background-image: none;
+    font-size: 20px;
+    font-family: "JetBrains Mono NFM";
+}
+
+window {
+    background-color: rgba(17, 17, 17, 0.45);
+}
+
+button {
+    border-radius: 20px;
+    margin: 10px;
+    color: @text;
+    border-color: @outline;
+    background-color: rgba(0, 0, 0, 0.5);
+    outline-style: none;
+    border-style: solid;
+    border-width: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+button:hover, button:focus {
+    background-color: @hover;
+    background-size: 30%;
+    transition: all 0.3s cubic-bezier(.55, 0.0, .28, 1.682);
+}
+
+button span {
+    font-size: 1.2em;
+}
+
+#lock {
+    background-image: image(url("/home/seesank/.config/wlogout/icons/lock.png"));
+}
+
+#logout {
+    background-image: image(url("/home/seesank/.config/wlogout/icons/logout.png"));
+}
+
+#suspend {
+    background-image: image(url("/home/seesank/.config/wlogout/icons/sleep.png"));
+}
+
+#shutdown {
+    background-image: image(url("/home/seesank/.config/wlogout/icons/power.png"));
+}
+
+#reboot {
+    background-image: image(url("/home/seesank/.config/wlogout/icons/restart.png"));
+}
+
+#hibernate {
+    background-image: image(url("/home/seesank/.config/wlogout/icons/hibernate.png"));
+}

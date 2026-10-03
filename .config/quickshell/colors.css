@@ -1,0 +1,9 @@
+:root {
+  --primary: #fbb974;
+  --error: #ffb4ab;
+  --warning: #bfcc9b;
+  --success: #e1c1a3;
+  --neutral: #50453a;
+  --surface: #19120c;
+  --on_surface: #eee0d5;
+}

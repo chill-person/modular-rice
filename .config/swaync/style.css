@@ -1,0 +1,155 @@
+/*
+ * swaync style.css — matugen template
+ * Colors are filled in by matugen from your wallpaper on each regen.
+ * Edit this file, not ~/.config/swaync/style.css directly.
+ */
+
+* {
+    all: unset;
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-size: 13px;
+}
+
+/* Control center panel */
+.control-center {
+    background-color: alpha(#19120c, 0.70);
+    border: 2px solid #50453a;
+    border-radius: 22px;
+    padding: 12px;
+    box-shadow: 0 4px 24px rgba(16, 16, 28, 0.6);
+}
+
+.control-center .notification-row {
+    padding: 4px;
+}
+
+/* Floating notification popups (top-right) */
+.notification-row .notification-background {
+    background-color: alpha(#19120c, 0.80);
+    border: 2px solid #50453a;
+    border-radius: 22px;
+    padding: 10px 16px;
+    margin: 6px;
+    box-shadow: 0 4px 20px rgba(16, 16, 28, 0.5);
+}
+
+.notification-row .notification-background .notification {
+    padding: 0;
+}
+
+.notification-content {
+    padding: 4px 8px;
+}
+
+.summary {
+    color: #eee0d5;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.time {
+    color: #d5c3b5;
+    font-size: 11px;
+}
+
+.body {
+    color: #eee0d5;
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+.notification-icon {
+    color: #eee0d5;
+}
+
+/* Close button */
+.close-button {
+    background-color: #fbb974;
+    color: #19120c;
+    border-radius: 30px;
+    padding: 2px 6px;
+    font-weight: 700;
+}
+
+.close-button:hover {
+    background-color: #bfcc9b;
+}
+
+/* Action buttons */
+.notification-action {
+    background-color: alpha(#50453a, 0.6);
+    color: #eee0d5;
+    border-radius: 999px;
+    padding: 6px 14px;
+    margin: 4px;
+}
+
+.notification-action:hover {
+    background-color: #fbb974;
+    color: #19120c;
+}
+
+/* Widget: title bar */
+.widget-title {
+    color: #eee0d5;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 8px 12px;
+}
+
+.widget-title > button {
+    background-color: #fbb974;
+    color: #19120c;
+    border-radius: 999px;
+    padding: 4px 12px;
+    font-weight: 600;
+}
+
+.widget-title > button:hover {
+    background-color: #bfcc9b;
+}
+
+/* Widget: DND toggle */
+.widget-dnd {
+    padding: 8px 12px;
+    color: #eee0d5;
+}
+
+.widget-dnd > switch {
+    background-color: alpha(#50453a, 0.6);
+    border-radius: 999px;
+    min-width: 40px;
+    min-height: 22px;
+}
+
+.widget-dnd > switch:checked {
+    background-color: #fbb974;
+}
+
+.widget-dnd > switch slider {
+    background-color: #eee0d5;
+    border-radius: 999px;
+    margin: 2px;
+}
+
+/* Empty state */
+.widget-notifications-empty {
+    color: #9d8e81;
+    padding: 30px;
+    font-size: 13px;
+}
+
+/* Scrollbar */
+scrollbar {
+    background-color: transparent;
+}
+
+scrollbar slider {
+    background-color: alpha(#fbb974, 0.4);
+    border-radius: 999px;
+    min-width: 6px;
+}
+
+scrollbar slider:hover {
+    background-color: #fbb974;
+}

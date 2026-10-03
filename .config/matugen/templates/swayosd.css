@@ -1,0 +1,64 @@
+/*
+ * SwayOSD style.css — matugen template
+ * Colors are filled in by matugen from your wallpaper on each regen.
+ * Source-of-truth values (fallback if matugen ever fails) matched
+ * the teal-sky / power-pole wallpaper this was originally built for.
+ */
+
+window#osd {
+    background-color: alpha({{colors.surface.default.hex}}, 0.88);
+    border: 2px solid {{colors.surface_variant.default.hex}};
+    border-radius: 999px;
+    box-shadow: 0 4px 24px rgba(16, 16, 28, 0.6);
+    padding: 8px 16px;
+}
+
+#container {
+    background-color: transparent;
+    padding: 0;
+    min-width: 0;
+}
+
+image {
+    color: {{colors.on_surface.default.hex}};
+    -gtk-icon-shadow: 0 1px 2px rgba(16, 16, 28, 0.5);
+}
+
+label {
+    color: {{colors.on_surface.default.hex}};
+    font-family: "JetBrainsMono Nerd Font", monospace;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+progressbar,
+#progress {
+    min-height: 6px;
+    min-width: 120px;
+    background-color: transparent;
+}
+
+progressbar trough,
+#progress trough {
+    background-color: alpha({{colors.surface_variant.default.hex}}, 0.6);
+    border-radius: 999px;
+    min-height: 6px;
+    min-width: 120px;
+    border: 1px solid alpha({{colors.primary.default.hex}}, 0.25);
+}
+
+progressbar progress,
+#progress progress {
+    background-color: {{colors.primary.default.hex}};
+    border-radius: 999px;
+    min-height: 6px;
+}
+
+/* Muted / high state variants, if your swayosd build exposes them */
+progressbar.muted progress {
+    background-color: {{colors.outline.default.hex}};
+}
+
+progressbar.high progress {
+    background-color: {{colors.tertiary.default.hex}};
+}

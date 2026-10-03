@@ -1,0 +1,1 @@
+qs -p $HOME/.config/quickshell
