@@ -1,6 +1,6 @@
 # modular-rice
 
-My Hyprland (Lua config) setup.
+My Hyprland (Lua config) setup. Heavy inspiration taken by Bintang M's hyprland rice
 
 ## ⚠️ Check usernames before using
 
@@ -12,7 +12,7 @@ The main one is the rofi-wifi-menu path in `binds.lua`.
 
 The wifi menu is a separate script and is not included in this repo.
 
-1. Clone or download it: `<link to the rofi-wifi-menu repo>`
+1. Clone it: https://github.com/ericmurphyxyz/rofi-wifi-menu
 2. Put it somewhere (I use `~/rofi-wifi-menu/`).
 3. Make it executable: `chmod +x rofi-wifi-menu.sh`
 4. Update the path in the `SUPER + I` bind in `binds.lua` to match where you put it.
